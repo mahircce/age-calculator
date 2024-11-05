@@ -35,8 +35,6 @@ label {
     color: #313030;
 }
 
-
-
 h2:hover{
     color: #4CAF50;
 }
@@ -48,10 +46,18 @@ input[type="number"] {
     border: 2px solid #ecaaaa;
     border-radius: 4px;
 }
-
-input:hover{
-    
+.disclaimer {
+    font-size: 12px;
+    color: #666;
+    margin-top: 10px;
+    text-align: center;
 }
+
+.disclaimer:hover {
+      color: #ff0000;
+      text-transform: uppercase;
+}
+
 
 button {
     background-color: #4CAF50;
@@ -67,6 +73,7 @@ button {
 
 button:hover {
     background-color: #419e45;
+    cursor: grab;
 }
 
 h3 {
@@ -85,14 +92,6 @@ textarea {
     
 }
 
-.disclaimer {
-    font-size: 12px;
-    color: #666;
-    margin-top: 10px;
-    text-align: center;
-}
-
-
 footer{
     text-align: center;
     text-shadow: #333;
@@ -100,4 +99,5 @@ footer{
     border-style: dashed;
     border-radius: 10%;
     background-color: #4CAF50;
+    cursor: copy;
 }
