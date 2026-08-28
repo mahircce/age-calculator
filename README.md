@@ -1,3 +1,3 @@
 # age-calculator
 Lab8
-https://mahircce.github.io/age-calculator/
+https://thmahir.me/age-calculator/
